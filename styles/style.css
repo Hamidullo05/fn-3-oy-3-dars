@@ -7,7 +7,7 @@ body {
     font-family: 'Inter';
 }
 .container {
-    max-width: 1440px;
+    max-width: 1920px;
     width: 100%;
     margin: 0 auto;
 
@@ -16,4 +16,101 @@ body {
     display: flex;
     align-items: center;
     position: fixed;
+    background-color: #043873;
+    padding-left: 220px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+
+    
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-left:300.5px ;
+    margin-right: 55.5px;
+    
+}
+ul li {
+    list-style: none;
+    align-items: center;
+    
+}
+li a {
+    text-decoration: none;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 23px;
+}
+.buttons {
+    display: flex;
+}
+
+.button {
+    border-radius: 8px;
+    
+}
+.button1 {
+    padding: 18.5px 40px;
+    margin-right: 24px;
+    background-color:#FFE492;
+    color: #043873;
+    font-size: 18px;
+    font-weight: 500;
+    
+    
+}
+.button2 {
+    padding: 18.5px 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color:#4F9CF9;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.project {
+    padding-top: 232px;
+    margin-top: 92px;
+    padding-bottom: 140px;
+    display: flex;
+    background-color: #043873;
+    background-image: url(../images/Element.png) ;
+}
+.project_text {
+    width: 656px;
+    margin-top: 94px;
+}
+.p1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.p_t {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+.button3 {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    background-color:  #4F9CF9;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+}
+.blok1 {
+    width: 824px;
+    height: 549px;
+    background-color: #C4DEFD;
+    
 }
